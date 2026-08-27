@@ -1,0 +1,44 @@
+### Cadastrar um plano
+POST http://localhost:3000/api/plans
+Content-Type: application/json
+
+{
+    "name": "Básico",
+    "price": 29.90
+}
+
+### Cadastrar outro plano
+POST http://localhost:3000/api/plans
+Content-Type: application/json
+
+{
+    "name": "Pro",
+    "price": 59.90
+}
+
+### Cadastrar mais um plano
+POST http://localhost:3000/api/plans
+Content-Type: application/json
+
+{
+    "name": "Premium",
+    "price": 99.90
+}
+
+### Listar todos os planos
+GET http://localhost:3000/api/plans
+
+### Consultar um plano pelo id
+GET http://localhost:3000/api/plans/1
+
+### Atualizar um plano
+PUT http://localhost:3000/api/plans/1
+Content-Type: application/json
+
+{
+    "name": "Básico Plus",
+    "price": 39.90
+}
+
+### Excluir um plano
+DELETE http://localhost:3000/api/plans/3
