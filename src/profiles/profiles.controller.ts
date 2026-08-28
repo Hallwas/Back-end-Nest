@@ -8,8 +8,8 @@ import {
     ParseIntPipe,
 } from '@nestjs/common';
 
-import { CreateProfileDto } from 'src/dtos/create-profile-dto';
-import { UpdateProfileDto } from 'src/dtos/update-profile-dto';
+import { CreateProfileDto } from 'src/dtos/profile/create-profile-dto';
+import { UpdateProfileDto } from 'src/dtos/profile/update-profile-dto';
 import { ProfilesService } from './profiles.service';
 
 @Controller('profiles')

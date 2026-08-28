@@ -9,8 +9,8 @@ import {
     Put,
 } from '@nestjs/common';
 
-import { CreatePlanDto } from 'src/dtos/create-plan-dto';
-import { UpdatePlanDto } from 'src/dtos/update-plan-dto';
+import { CreatePlanDto } from 'src/dtos/plan/create-plan-dto';
+import { UpdatePlanDto } from 'src/dtos/plan/update-plan-dto';
 import { PlansService } from './plans.service';
 
 @Controller('api/plans')
