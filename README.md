@@ -45,7 +45,7 @@ $ npm run start:prod
 ```
 
 ## Run tests
-npx prisma studio
+
 ```bash
 # unit tests
 $ npm run test

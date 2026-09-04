@@ -6,11 +6,11 @@ export class CreateProfileDto {
     @IsInt()
     @IsPositive()
     userId: number = 0; // vínculo obrigatório
-   
+
     @IsString()
     @Length(2, 120)
     fullName: string = "";
-    
+
     @IsOptional()
     @IsDateString()
     birthDate?: string; // ISO 8601 (ex: "1990-01-15T00:00:00Z")

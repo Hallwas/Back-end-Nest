@@ -1,7 +1,7 @@
 import { BadRequestException, ConflictException, Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from 'src/database/prisma.service';
-import { CreateProfileDto } from 'src/dtos/profile/create-profile-dto';
-import { UpdateProfileDto } from 'src/dtos/profile/update-profile-dto';
+import { CreateProfileDto } from 'src/dtos/create-profile-dto';
+import { UpdateProfileDto } from 'src/dtos/update-profile-dto';
 
 @Injectable()
 export class ProfilesService {
@@ -59,5 +59,5 @@ export class ProfilesService {
         };
     }
 
-}
 
+}

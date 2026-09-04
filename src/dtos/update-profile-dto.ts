@@ -9,7 +9,7 @@ export class UpdateProfileDto {
     @IsOptional()
     @IsDateString()
     birthDate?: string;
-
+    
     @IsOptional()
     @MaxLength(500)
     avatarUrl?: string;
